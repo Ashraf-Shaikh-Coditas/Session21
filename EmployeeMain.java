@@ -36,18 +36,6 @@ class Employee implements Comparable<Employee>{
     }
 }
 
-class sortBySal implements Comparable<Employee> {
-
-    @Override
-    public int compareTo(Employee o) {
-        if(o.salary > 15000) {
-            return 1;
-        } else {
-            return -1;
-        }
-    }
-}
-
 
 class sortByName implements Comparator<Employee> {
 
@@ -144,6 +132,8 @@ Employee{id=1, name='Ashraf', salary=20000.0}
 Employee{id=5, name='Eoin', salary=20000.0}
 Employee{id=3, name='Jack', salary=21000.0}
 Employee{id=4, name='Jill', salary=16000.0}
+
+
 
 
 * */
